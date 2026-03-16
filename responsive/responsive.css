@@ -149,3 +149,32 @@
         padding: 40px 15px;
     }
 }
+
+
+
+/* videos for business section responsive */
+@media (max-width: 1024px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .title-main {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+    .title-main {
+        font-size: 28px;
+        flex-wrap: wrap;
+    }
+    .title-img-container {
+        width: 80px;
+        height: 35px;
+    }
+    .next-btn {
+        display: none;
+    }
+}

@@ -239,3 +239,35 @@
     .faq-question { font-size: 16px; padding: 18px; }
     .faq-wrapper { padding: 0 15px; }
 }
+
+
+
+
+/* footer section responsive */
+/* Laptop/Tablet (1024px) */
+@media (max-width: 1024px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    
+    .about-col p {
+        max-width: 100%;
+    }
+    
+    .footer-btns {
+        justify-content: flex-start;
+    }
+
+    .main-footer {
+        padding: 50px 20px 20px;
+    }
+}

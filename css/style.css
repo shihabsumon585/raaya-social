@@ -580,11 +580,7 @@ body {
 
 .title-img-container {
     display: inline-block;
-    /* width: 100px; */
-    /* height: 45px; */
-    /* border-radius: 50px; */
     overflow: hidden;
-    /* border: 2px solid #a855f7; */
 }
 
 .title-img-container img {
@@ -612,8 +608,8 @@ body {
 
 .video-card {
     text-align: center;
-    background: #fff;
-    /* border-radius: 20px; */
+    /* background: #F9FAFB; */
+    background: transparent;
 }
 
 .img-box {

@@ -178,3 +178,40 @@
         display: none;
     }
 }
+
+
+/* popular video section responsive */
+/* Tablet View (992px and below) */
+@media (max-width: 992px) {
+    .why-popular-wrapper {
+        gap: 40px;
+    }
+    .why-popular-content h2 {
+        font-size: 36px;
+    }
+}
+
+/* Mobile View (768px and below) */
+@media (max-width: 768px) {
+    .why-popular {
+        padding: 60px 20px;
+    }
+    
+    .why-popular-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .why-popular-img img {
+        margin: 0 auto;
+    }
+    
+    .why-popular-content h2 {
+        font-size: 28px;
+        br { display: none; }
+    }
+    
+    .why-popular-content p {
+        font-size: 16px;
+    }
+}

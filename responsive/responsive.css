@@ -229,3 +229,13 @@
     .video-reviews-grid, .top-row, .bottom-row { grid-template-columns: 1fr; }
     .review-card { padding: 20px; }
 }
+
+
+
+
+/* FAQ section responsive */
+@media (max-width: 768px) {
+    .faq-header h2 { font-size: 28px; }
+    .faq-question { font-size: 16px; padding: 18px; }
+    .faq-wrapper { padding: 0 15px; }
+}

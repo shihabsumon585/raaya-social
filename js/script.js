@@ -13,3 +13,19 @@ menuToggle.addEventListener('click', () => {
     }
 });
 
+// FAQ section script
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const currentItem = question.parentElement;
+        
+        // Close other items if one is clicked (Optional)
+        document.querySelectorAll('.faq-item').forEach(item => {
+            if (item !== currentItem) {
+                item.classList.remove('active');
+            }
+        });
+
+        // Toggle the clicked item
+        currentItem.classList.toggle('active');
+    });
+});

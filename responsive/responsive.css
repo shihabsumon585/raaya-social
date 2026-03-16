@@ -215,3 +215,17 @@
         font-size: 16px;
     }
 }
+
+
+
+/* client stories responsive */
+@media (max-width: 1024px) {
+    .video-reviews-grid { grid-template-columns: 1fr 1fr; }
+    .bottom-row { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+    .testimonial-title { font-size: 30px; }
+    .video-reviews-grid, .top-row, .bottom-row { grid-template-columns: 1fr; }
+    .review-card { padding: 20px; }
+}
